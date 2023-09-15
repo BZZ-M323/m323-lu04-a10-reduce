@@ -2,7 +2,7 @@ from functools import reduce
 
 # Der Algorithmus von Euklid ist etwas zu lange um ihn nur als Lambda-Funktion zu schreiben.
 # Deshalb schreiben wir eine Funktion, die den Algorithmus implementiert.
-def gcd(a, b):
+def euklid(a, b):
     """
     Berechnet den größten gemeinsamen Teiler von a und b.
     Args:
@@ -11,7 +11,7 @@ def gcd(a, b):
     Returns:
     - int: Der größte gemeinsame Teiler von a und b.
     """
-    pass
+    return 0
 
 
 def gcd(numbers):
