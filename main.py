@@ -19,7 +19,7 @@ def euklid(a, b):
 def gcd(numbers):
     """
     Berechnet den größten gemeinsamen Teiler einer Liste von Zahlen.
-    Benutzt dazu die Funktion gcd(a, b) mit reduce().
+    Benutzt dazu die Funktion euklid(a, b) mit reduce().
     Args:
     - numbers (list): Eine Liste von Zahlen.
     Returns:
