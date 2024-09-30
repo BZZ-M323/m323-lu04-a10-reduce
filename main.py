@@ -1,5 +1,6 @@
 from functools import reduce
 
+
 # Der Algorithmus von Euklid ist etwas zu lange um ihn nur als Lambda-Funktion zu schreiben.
 # Deshalb schreiben wir eine Funktion, die den Algorithmus implementiert.
 def euklid(a, b):
